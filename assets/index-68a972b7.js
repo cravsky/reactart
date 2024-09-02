@@ -75,7 +75,7 @@ border: none;
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
-`;function Im(){const[e,t]=yt.useState(""),[n,r]=yt.useState(""),[l,o]=yt.useState(!1);function i(m,h){m==="email"?t(h):r(h)}function u(){o(!0)}const s=l&&!e.includes("@"),c=l&&n.trim().length<6;return X.jsxs("div",{id:"auth-inputs",children:[X.jsxs($m,{children:[X.jsx(va,{label:"Email",invalid:s,type:"email",onChange:m=>i("email",m.target.value)}),X.jsx(va,{label:"Password",invalid:c,type:"password",onChange:m=>i("password",m.target.value)})]}),X.jsxs("div",{className:"actions",children:[X.jsx("button",{type:"button",className:"text-button",children:"Create a new account"}),X.jsx(Tm,{onClick:u,children:"Sign In"})]})]})}const Om="/assets/logo-675c728c.png",Dm=An.header`
+`;function Im(){const[e,t]=yt.useState(""),[n,r]=yt.useState(""),[l,o]=yt.useState(!1);function i(m,h){m==="email"?t(h):r(h)}function u(){o(!0)}const s=l&&!e.includes("@"),c=l&&n.trim().length<6;return X.jsxs("div",{id:"auth-inputs",children:[X.jsxs($m,{children:[X.jsx(va,{label:"Email",invalid:s,type:"email",onChange:m=>i("email",m.target.value)}),X.jsx(va,{label:"Password",invalid:c,type:"password",onChange:m=>i("password",m.target.value)})]}),X.jsxs("div",{className:"actions",children:[X.jsx("button",{type:"button",className:"text-button",children:"Create a new account"}),X.jsx(Tm,{onClick:u,children:"Sign In"})]})]})}const Om="/reactart/assets/logo-675c728c.png",Dm=An.header`
     display: flex;
     flex-direction: column;
     align-items: center;
